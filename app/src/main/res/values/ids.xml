@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Konsumen" type="id" />
+    <item name="TeksKode" type="id" />
+    <item name="TeksJumlahBarang" type="id" />
+    <item name="TombolProses" type="id" />
+    <item name="rbPLATINUM" type="id" />
+    <item name="rbPREMIUM" type="id" />
+    <item name="rbVIP" type="id" />
+    <item name="radioGroup" type="id" />
+</resources>

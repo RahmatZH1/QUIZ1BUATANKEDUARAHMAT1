@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz 1 Rahmat ZH</string>
+    <string name="nama_hint">Name</string>
+    <string name="deskripsi_hint">Description</string>
+    <string name="thanks_message">Thank you for using our app!</string>
+    <string name="share_button">Share</string>
+    <string name="deskripsi" translatable="false">Description</string>
+    <string name="textView2" translatable="false">QUIZ 1 STORE RAHMAT ZH</string>
+    <string name="TextNama" translatable="false">NAMA</string>
+    <string name="TextKodeBarang" translatable="false">CODE ITEM</string>
+    <string name="JumlahBarang" translatable="false">AMOUNT ITEM</string>
+    <string name="normal" translatable="false">NORMAL</string>
+    <string name="process" translatable="false">PROCESS</string>
+    <string name="silver" translatable="false">SILVER</string>
+    <string name="gold" translatable="false">GOLD</string>
+    <string name="quiz_1_store_rahmat" translatable="false">QUIZ 1 STORE RAHMAT</string>
+    <string name="description" translatable="false">DESCRIPTION</string>
+    <string name="nama" translatable="false">NAMA</string>
+
+</resources>

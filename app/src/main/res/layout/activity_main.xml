@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:hint="QUIZ 1 STORE RAHMAT ZH"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="@string/textView2"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints" />
+
+    <!-- TextInputLayout untuk Nama -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutNama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"
+            android:text="@string/nama"
+            android:inputType="text"
+            android:textSize="25sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    
+    <!-- TextInputLayout untuk Kode Barang -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutKodeBarang"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutNama">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextKodeBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TextKodeBarang"
+            android:hint="Kode Barang"
+            android:inputType="text"
+            android:textSize="25sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- TextInputLayout untuk Jumlah Barang -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutJumlahBarang"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutKodeBarang">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextJumlahBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah Barang"
+            android:text="@string/JumlahBarang"
+            android:inputType="number"
+            android:textSize="25sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- RadioGroup -->
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutJumlahBarang">
+
+        <!-- RadioButton untuk GOLD -->
+        <RadioButton
+            android:id="@+id/rbGOLD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gold"
+            android:layout_weight="1" />
+
+        <!-- RadioButton untuk SILVER -->
+        <RadioButton
+            android:id="@+id/rbSILVER"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/silver"
+            android:layout_weight="1" />
+
+        <!-- RadioButton untuk NORMALDISKON -->
+        <RadioButton
+            android:id="@+id/rbNORMAL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/normal"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/TombolProses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/process"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

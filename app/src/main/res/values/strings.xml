@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name"></string>
+    <string name="nama_hint"></string>
+    <string name="deskripsi_hint"></string>
+    <string name="thanks_message"></string>
+    <string name="share_button">PROCESS</string>
+    <string name="deskripsi" translatable="false"></string>
+    <string name="textView2" translatable="false"></string>
+    <string name="TextNama" translatable="false">NAME</string>
+    <string name="TextKodeBarang" translatable="false"></string>
+    <string name="JumlahBarang" translatable="false"></string>
+    <string name="process" translatable="false"></string>
+    <string name="silver" translatable="false"></string>
+    <string name="gold" translatable="false"></string>
+    <string name="normal" translatable="false"></string>
+    <string name="quiz_1_store_rahmat" translatable="false">QUIZ 1 STORE RAHMAT</string>
+    <string name="description" translatable="false">DESCRIPTION</string>
+    <string name="nama" translatable="false">NAMA</string>
+
+</resources>
+
